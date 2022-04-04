@@ -32,6 +32,24 @@ A = "Sally"
 # case sensentive A will not overwrite a
 print(a)
 print(A)
+myvar = "John" #naming variable in either form is good
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+print(myvar)
+print(my_var) 
+print(myVar)
+print(MYVAR)
+print(myvar2) 
+myVariableName = "John" #camelcase
+print(myVariableName)
+my_variable_name = "John" #snakecase
+print(my_variable_name)
+MyVariableName = "John" #pascalcase
+print(MyVariableName)
+
 
 
 
