@@ -49,6 +49,53 @@ my_variable_name = "John" #snakecase
 print(my_variable_name)
 MyVariableName = "John" #pascalcase
 print(MyVariableName)
+x, y , z = "Orange", "Banana","Cherry" #Manyvaluestomultiplevariables
+print(x)
+print(y)
+print(z)
+x = y = z = "Orange"  #sameValuetoMultipleVariables
+print(x)
+print(y)
+print(z)
+fruits = ["apple","banana","Cherry"] #Unpackalist
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
+x = "Python is awesome" #print()FunctionExecuteCommand
+print(x)
+x = "python"
+y = "is"
+z = "awesome" #print()SeparatedByCommaGivesMultiVariableOutput
+print(x,y,z)
+x = "python "  #SpacerAfterPython
+y =  "is "  #SpacerAfterPython
+z =  "awesome" #Use+OperatorToOutputMultipleVariable
+print(x + y + z)
+x = 5
+y = "John" #OutputMultipleVariableByCommaBetweenNumberAndString
+print(x,y)
+x = "awesome"
+def myfunc():
+    print("Python is " + x)
+myfunc()
+x ="Excellent"
+
+def myfunc():
+    x = "fantastic"
+    print("Python is " + x)
+myfunc()
+print("Python is " + x)
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic" #GlobalKeyboardGlobalVariable inside
+
+myfunc()
+
+print("Python is " + x) 
+
 
 
 
