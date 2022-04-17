@@ -1,3 +1,6 @@
+from readline import set_completion_display_matches_hook
+
+
 print("This is new hello world") #code follows this type of syntax
 if 5 > 2:
  print("Five is greater than two!") #Identation space before print
@@ -103,6 +106,13 @@ z = 1j # complex
 print(type(x))
 print(type(y))
 print(type(z))
+birth_year = input ("Input your birth year: ")
+age = 2022 - int(birth_year)
+print(age)
+
+
+
+
 
 
 
